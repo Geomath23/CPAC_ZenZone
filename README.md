@@ -37,31 +37,24 @@ Hardware:
 - Yeelight bulb connected to the local network.
 
 # Installation
-1. Install SuperCollider
-Download and install SuperCollider from the official website: https://supercollider.github.io/.
-2. Configure TouchOSC
-Download the TouchOSC app on your smartphone.
-Set up the layout to send OSC messages to SuperCollider. (You can find the configuration file in the /touchosc_layouts directory in this repository).
-3. Install Python and dependencies
+1. Install SuperCollider from the official website: https://supercollider.github.io/.
+3. Download the TouchOSC app on your smartphone.
+Set up the layout to send OSC messages to SuperCollider. (You can find the configuration file in the ZENZONE.TOUCHMK1.touchosc in this repository).
+4. Install Python and dependencies
 Ensure you have Python 3.x installed. Install the required dependencies with:
-
-bash
-Copia codice
-pip install numpy scipy tensorflow pyaudio yeelight
-
-6. Connect the Yeelight bulb
+5. Connect the Yeelight bulb
 Ensure that your Yeelight bulb is connected to the same Wi-Fi network as your computer. Enable "LAN Control" via the official Yeelight app. Python will control the bulb based on the detected music mood.
 
-Running the Project
+# Running the Project
 1. Start SuperCollider
-Run the SuperCollider script to generate the music. You can find the script in the /supercollider_scripts directory.
+Run the SuperCollider script to generate the music. You can find the script in the /ZenZOne-Supercollider_ZenZone directory.
 
 2. Start the mood recognition process in Python
-Run the Python script that analyzes the audio and controls the bulb:
+Run the Python script Main_ZenZone that analyzes the audio and controls the bulb:
 
-3. Interact with TouchOSC
+3. Open TouchOSC and select the name of your layout.
 Now, you can interact with TouchOSC from your smartphone, modifying the music parameters. Python will update the color of the Yeelight bulb in real time based on the detected mood.
 
 
 # VIDEO DEMO
-
+https://www.youtube.com/watch?v=_SYIxqFthYA&feature=youtu.be
