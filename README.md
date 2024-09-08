@@ -2,10 +2,10 @@
 Description:
 This project is an interactive audio-visual experience designed for waiting rooms, where users can manipulate music and lighting in real time using provided smartphones. 
 # The experience involves:
-SuperCollider for generating interactive music.
-TouchOSC for allowing users to control various parameters of the music from their smartphones.
-Python for analyzing the music and detecting its mood, utilizing a machine learning model we trained.
-Yeelight, a smart bulb, which changes color based on the detected mood of the music in real time.
+1. SuperCollider for generating interactive music.
+2. TouchOSC for allowing users to control various parameters of the music from their smartphones.
+3. Python for analyzing the music and detecting its mood, utilizing a machine learning model we trained.
+4. Yeelight, a smart bulb, which changes color based on the detected mood of the music in real time.
 # How It Works
 The user interacts with TouchOSC via a smartphone.
 SuperCollider receives commands from TouchOSC and generates dynamic music.
