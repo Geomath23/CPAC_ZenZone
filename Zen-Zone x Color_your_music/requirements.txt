@@ -1,3 +1,11 @@
+Audio:
+Supercollider
+SC3-Plugins
+
+Control:
+Touch OSC
+
+Audio analysis and light connection:
 PyAudio==0.2.11
 numpy==1.19.2
 scipy==1.5.2
