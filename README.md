@@ -17,21 +17,24 @@ SuperCollider receives commands from TouchOSC and generates dynamic music.
 Python receives the audio signal from SuperCollider and identifies the mood of the music (using a pre-trained model).
 Based on the detected mood, Python sends commands to the Yeelight smart bulb, changing its color to reflect the current mood of the music.
 # Requirements
-Software
-SuperCollider: A platform for interactive sound synthesis.
-TouchOSC: A remote control app (available for iOS and Android).
-Python 3.x: Used for mood detection and controlling the Yeelight bulb.
+Software:
+- SuperCollider: A platform for interactive sound synthesis.
+- SC3-PLUGINS (Supercollider)
+- TouchOSC: A remote control app (available for iOS and Android).
+- Python 3.x: Used for mood detection and controlling the Yeelight bulb.
+  
 Required Python libraries:
-numpy
-scipy
-tensorflow (or another machine learning framework used for mood detection)
-pyaudio or sounddevice for audio capture
-yeelight for controlling the smart bulb
-Yeelight: A smart lightbulb that supports the yeelight Python library.
-Hardware
-Smartphone with the TouchOSC app installed.
-Computer to run SuperCollider and Python.
-Yeelight bulb connected to the local network.
+- numpy
+- scipy
+- tensorflow (or another machine learning framework used for mood detection)
+- pyaudio or sounddevice for audio capture
+- yeelight for controlling the smart bulb
+-Yeelight: A smart lightbulb that supports the yeelight Python library.
+
+Hardware:
+- Smartphone with the TouchOSC app installed.
+- Computer to run SuperCollider and Python.
+- Yeelight bulb connected to the local network.
 
 # Installation
 1. Install SuperCollider
