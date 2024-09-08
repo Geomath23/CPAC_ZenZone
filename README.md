@@ -1,6 +1,6 @@
 # Zen-Zone
 Description:
-This project is an interactive audio-visual experiencen designed for waiting rooms, where users can manipulate music and lighting in real time using provided smartphones. 
+This project is an interactive audio-visual experience designed for waiting rooms, where users can manipulate music and lighting in real time using provided smartphones. 
 # The experience involves:
 SuperCollider for generating interactive music.
 TouchOSC for allowing users to control various parameters of the music from their smartphones.
