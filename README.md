@@ -1,6 +1,11 @@
 # Zen-Zone
-Description:
-This project is an interactive audio-visual experience designed for waiting rooms, where users can manipulate music and lighting in real time using provided smartphones. 
+# Project Overview
+
+ZENZONE uses real-time music generation and emotion-driven lighting to create an immersive environment. Users can control the system using the TouchOSC app on their devices, which sends OSC (Open Sound Control) signals to SuperCollider, the sound synthesis engine. In parallel, Python handles real-time analysis of the music and controls lighting based on the emotional tone of the music, classified as either "Valence" or "Energy".
+
+The interaction includes controlling instruments like Synth Pad, Piano, Drums, and Background Ambience, all of which are synthesized and played through SuperCollider. Python manages the audio classification and visual feedback using pre-trained models.
+
+
 # The experience involves:
 1. SuperCollider for generating interactive music.
 2. TouchOSC for allowing users to control various parameters of the music from their smartphones.
